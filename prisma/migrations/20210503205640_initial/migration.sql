@@ -1,8 +1,8 @@
 -- CreateTable
-CREATE TABLE "Todo" (
+CREATE TABLE "User" (
     "id" SERIAL NOT NULL,
-    "title" VARCHAR(255) NOT NULL,
-    "done" BOOLEAN NOT NULL DEFAULT false,
+    "firstName" VARCHAR(255) NOT NULL,
+    "lastName" VARCHAR(255) NOT NULL,
     "createdAt" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     PRIMARY KEY ("id")

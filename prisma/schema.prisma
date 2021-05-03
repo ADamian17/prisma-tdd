@@ -10,9 +10,9 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Todo {
+model User {
   id        Int      @id @default(autoincrement())
-  title     String   @db.VarChar(255)
-  done      Boolean  @default(false)
+  firstName String   @db.VarChar(255)
+  lastName  String   @db.VarChar(255)
   createdAt DateTime @default(now()) @db.Timestamp(6)
 }

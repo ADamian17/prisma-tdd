@@ -4,14 +4,20 @@
   "main": "server.js",
   "author": "ADamian17 <adonisdesuvikdo@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
   "dependencies": {
-    "@prisma/client": "2.21.2",
+    "@prisma/client": "^2.21.2",
     "express": "^4.17.1",
     "jest": "^26.6.3",
     "node-mocks-http": "^1.10.1",
     "supertest": "^6.1.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "babel-jest": "^26.6.3",
     "prisma": "2.21.2"
   }
 }
