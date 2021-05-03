@@ -1,0 +1,13 @@
+{
+  "name": "prisma_tdd",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "ADamian17 <adonisdesuvikdo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "node-mocks-http": "^1.10.1",
+    "supertest": "^6.1.3"
+  }
+}
