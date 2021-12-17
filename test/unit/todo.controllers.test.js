@@ -37,3 +37,10 @@ describe('createUser', () => {
     expect(res._isEndCalled()).toBeTruthy();
   });
 });
+
+// Get All User
+describe('allUser', () => {
+  it('should have a allTodos method', () => {
+    expect(typeof allUsers).toBe('function');
+  });
+});
